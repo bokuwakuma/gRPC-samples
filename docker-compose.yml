@@ -4,7 +4,7 @@ services:
     build:
       context: ./
       dockerfile: user/Dockerfile
-    image: gRPC-samples/user
+    image: grpc-samples/user
     container_name: user
     ports:
     - "50051:50051"
@@ -15,7 +15,7 @@ services:
     build:
       context: ./
       dockerfile: task/Dockerfile
-    image: gRPC-samples/task
+    image: grpc-samples/task
     container_name: task
     ports:
     - "50052:50051"
@@ -27,7 +27,7 @@ services:
     build:
       context: ./
       dockerfile: project/Dockerfile
-    image: gRPC-samples/project
+    image: grpc-samples/project
     container_name: project
     ports:
     - "50053:50051"
@@ -38,7 +38,7 @@ services:
     build:
       context: ./
       dockerfile: activity/Dockerfile
-    image: gRPC-samples/activity
+    image: grpc-samples/activity
     container_name: activity
     ports:
     - "50054:50051"
@@ -48,7 +48,7 @@ services:
     build:
       context: ./
       dockerfile: front/Dockerfile
-    image: gRPC-samples/front
+    image: grpc-samples/front
     container_name: front
     ports:
     - "8080:8080"
