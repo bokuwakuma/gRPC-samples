@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/rs/xid"
-	"github.com/bokuwakuma/gRPC-samples/front/session"
-	"github.com/bokuwakuma/gRPC-samples/front/support"
-	pbUser "github.com/bokuwakuma/gRPC-samples/proto/user"
+	"github.com/bokuwakuma/grpc-samples/front/session"
+	"github.com/bokuwakuma/grpc-samples/front/support"
+	pbUser "github.com/bokuwakuma/grpc-samples/proto/user"
 )
 
 const (

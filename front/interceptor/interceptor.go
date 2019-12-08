@@ -3,8 +3,8 @@ package interceptor
 import (
 	"context"
 
-	"github.com/bokuwakuma/gRPC-samples/front/support"
-	"github.com/bokuwakuma/gRPC-samples/shared/md"
+	"github.com/bokuwakuma/grpc-samples/front/support"
+	"github.com/bokuwakuma/grpc-samples/shared/md"
 	"google.golang.org/grpc"
 )
 

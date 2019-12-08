@@ -8,14 +8,14 @@ import (
 
 	"github.com/gorilla/mux"
 	grpc_middleware "github.com/grpc-ecosystem/go-grpc-middleware"
-	"github.com/bokuwakuma/gRPC-samples/front/handler"
-	"github.com/bokuwakuma/gRPC-samples/front/interceptor"
-	"github.com/bokuwakuma/gRPC-samples/front/middleware"
-	"github.com/bokuwakuma/gRPC-samples/front/session"
-	pbActivity "github.com/bokuwakuma/gRPC-samples/proto/activity"
-	pbProject "github.com/bokuwakuma/gRPC-samples/proto/project"
-	pbTask "github.com/bokuwakuma/gRPC-samples/proto/task"
-	pbUser "github.com/bokuwakuma/gRPC-samples/proto/user"
+	"github.com/bokuwakuma/grpc-samples/front/handler"
+	"github.com/bokuwakuma/grpc-samples/front/interceptor"
+	"github.com/bokuwakuma/grpc-samples/front/middleware"
+	"github.com/bokuwakuma/grpc-samples/front/session"
+	pbActivity "github.com/bokuwakuma/grpc-samples/proto/activity"
+	pbProject "github.com/bokuwakuma/grpc-samples/proto/project"
+	pbTask "github.com/bokuwakuma/grpc-samples/proto/task"
+	pbUser "github.com/bokuwakuma/grpc-samples/proto/user"
 	"google.golang.org/grpc"
 )
 

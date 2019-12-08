@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sort"
 
-	pbProject "github.com/bokuwakuma/gRPC-samples/proto/project"
-	"github.com/bokuwakuma/gRPC-samples/shared/inmemory"
+	pbProject "github.com/bokuwakuma/grpc-samples/proto/project"
+	"github.com/bokuwakuma/grpc-samples/shared/inmemory"
 )
 
 type Store interface {

@@ -10,9 +10,9 @@ import (
 	"time"
 
 	grpc_middleware "github.com/grpc-ecosystem/go-grpc-middleware"
-	pbProject "github.com/bokuwakuma/gRPC-samples/proto/project"
-	pbUser "github.com/bokuwakuma/gRPC-samples/proto/user"
-	"github.com/bokuwakuma/gRPC-samples/shared/interceptor"
+	pbProject "github.com/bokuwakuma/grpc-samples/proto/project"
+	pbUser "github.com/bokuwakuma/grpc-samples/proto/user"
+	"github.com/bokuwakuma/grpc-samples/shared/interceptor"
 	"google.golang.org/grpc"
 )
 

@@ -14,10 +14,10 @@ import (
 	"syscall"
 
 	grpc_middleware "github.com/grpc-ecosystem/go-grpc-middleware"
-	pbActivity "github.com/bokuwakuma/gRPC-samples/proto/activity"
-	pbProject "github.com/bokuwakuma/gRPC-samples/proto/project"
-	pbTask "github.com/bokuwakuma/gRPC-samples/proto/task"
-	"github.com/bokuwakuma/gRPC-samples/shared/interceptor"
+	pbActivity "github.com/bokuwakuma/grpc-samples/proto/activity"
+	pbProject "github.com/bokuwakuma/grpc-samples/proto/project"
+	pbTask "github.com/bokuwakuma/grpc-samples/proto/task"
+	"github.com/bokuwakuma/grpc-samples/shared/interceptor"
 	"google.golang.org/grpc"
 )
 

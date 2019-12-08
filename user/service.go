@@ -6,9 +6,9 @@ import (
 	"github.com/golang/protobuf/ptypes"
 	"golang.org/x/crypto/bcrypt"
 
-	pbProject "github.com/bokuwakuma/gRPC-samples/proto/project"
-	pbUser "github.com/bokuwakuma/gRPC-samples/proto/user"
-	"github.com/bokuwakuma/gRPC-samples/shared/md"
+	pbProject "github.com/bokuwakuma/grpc-samples/proto/project"
+	pbUser "github.com/bokuwakuma/grpc-samples/proto/user"
+	"github.com/bokuwakuma/grpc-samples/shared/md"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

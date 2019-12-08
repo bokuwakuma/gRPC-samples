@@ -11,13 +11,13 @@ import (
 	"github.com/golang/protobuf/ptypes"
 	"github.com/golang/protobuf/ptypes/empty"
 	"github.com/gorilla/mux"
-	"github.com/bokuwakuma/gRPC-samples/front/session"
-	"github.com/bokuwakuma/gRPC-samples/front/support"
-	"github.com/bokuwakuma/gRPC-samples/front/template"
-	pbActivity "github.com/bokuwakuma/gRPC-samples/proto/activity"
-	pbProject "github.com/bokuwakuma/gRPC-samples/proto/project"
-	pbTask "github.com/bokuwakuma/gRPC-samples/proto/task"
-	pbUser "github.com/bokuwakuma/gRPC-samples/proto/user"
+	"github.com/bokuwakuma/grpc-samples/front/session"
+	"github.com/bokuwakuma/grpc-samples/front/support"
+	"github.com/bokuwakuma/grpc-samples/front/template"
+	pbActivity "github.com/bokuwakuma/grpc-samples/proto/activity"
+	pbProject "github.com/bokuwakuma/grpc-samples/proto/project"
+	pbTask "github.com/bokuwakuma/grpc-samples/proto/task"
+	pbUser "github.com/bokuwakuma/grpc-samples/proto/user"
 )
 
 // FrontServer 構造体

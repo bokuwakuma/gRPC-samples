@@ -1,6 +1,6 @@
 FROM golang:1.12
 
-ENV PKG_PATH /go/src/github.com/bokuwakuma/gRPC-samples
+ENV PKG_PATH /go/src/github.com/bokuwakuma/grpc-samples
 ENV SERVICE_PATH $PKG_PATH/activity
 ENV GO111MODULE on
 WORKDIR $PKG_PATH

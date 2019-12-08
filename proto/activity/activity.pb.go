@@ -6,7 +6,7 @@ package activity
 import (
 	context "context"
 	fmt "fmt"
-	task "github.com/bokuwakuma/gRPC-samples/proto/task"
+	task "github.com/bokuwakuma/grpc-samples/proto/task"
 	proto "github.com/golang/protobuf/proto"
 	any "github.com/golang/protobuf/ptypes/any"
 	empty "github.com/golang/protobuf/ptypes/empty"

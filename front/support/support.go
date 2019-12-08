@@ -3,7 +3,7 @@ package support
 import (
 	"context"
 
-	pbUser "github.com/bokuwakuma/gRPC-samples/proto/user"
+	pbUser "github.com/bokuwakuma/grpc-samples/proto/user"
 )
 
 type contextKeyTraceID struct{}

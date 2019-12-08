@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	pbUser "github.com/bokuwakuma/gRPC-samples/proto/user"
-	"github.com/bokuwakuma/gRPC-samples/shared/inmemory"
+	pbUser "github.com/bokuwakuma/grpc-samples/proto/user"
+	"github.com/bokuwakuma/grpc-samples/shared/inmemory"
 )
 
 type Store interface {

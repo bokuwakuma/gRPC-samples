@@ -5,8 +5,8 @@ import (
 
 	"sort"
 
-	pbTask "github.com/bokuwakuma/gRPC-samples/proto/task"
-	"github.com/bokuwakuma/gRPC-samples/shared/inmemory"
+	pbTask "github.com/bokuwakuma/grpc-samples/proto/task"
+	"github.com/bokuwakuma/grpc-samples/shared/inmemory"
 )
 
 type Store interface {

@@ -6,8 +6,8 @@ import (
 
 	"github.com/golang/protobuf/ptypes"
 	"github.com/golang/protobuf/ptypes/empty"
-	pbActivity "github.com/bokuwakuma/gRPC-samples/proto/activity"
-	"github.com/bokuwakuma/gRPC-samples/shared/md"
+	pbActivity "github.com/bokuwakuma/grpc-samples/proto/activity"
+	"github.com/bokuwakuma/grpc-samples/shared/md"
 )
 
 type ActivityService struct {

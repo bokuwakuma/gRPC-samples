@@ -6,7 +6,7 @@ import (
 
 	"log"
 
-	"github.com/bokuwakuma/gRPC-samples/shared/md"
+	"github.com/bokuwakuma/grpc-samples/shared/md"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
