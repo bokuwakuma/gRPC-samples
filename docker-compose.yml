@@ -4,7 +4,7 @@ services:
     build:
       context: ./
       dockerfile: user/Dockerfile
-    image: go-grpc-microservices/user
+    image: gRPC-samples/user
     container_name: user
     ports:
     - "50051:50051"
@@ -15,7 +15,7 @@ services:
     build:
       context: ./
       dockerfile: task/Dockerfile
-    image: go-grpc-microservices/task
+    image: gRPC-samples/task
     container_name: task
     ports:
     - "50052:50051"
@@ -27,7 +27,7 @@ services:
     build:
       context: ./
       dockerfile: project/Dockerfile
-    image: go-grpc-microservices/project
+    image: gRPC-samples/project
     container_name: project
     ports:
     - "50053:50051"
@@ -38,7 +38,7 @@ services:
     build:
       context: ./
       dockerfile: activity/Dockerfile
-    image: go-grpc-microservices/activity
+    image: gRPC-samples/activity
     container_name: activity
     ports:
     - "50054:50051"
@@ -48,7 +48,7 @@ services:
     build:
       context: ./
       dockerfile: front/Dockerfile
-    image: go-grpc-microservices/front
+    image: gRPC-samples/front
     container_name: front
     ports:
     - "8080:8080"

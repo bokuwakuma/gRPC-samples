@@ -1,4 +1,4 @@
-module github.com/bokuwakuma/go-grpc-microservices
+module github.com/bokuwakuma/gRPC-samples
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect

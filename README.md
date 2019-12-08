@@ -1,4 +1,4 @@
-#タスク管理マイクロサービス
+# タスク管理マイクロサービス
 
 ## 動作環境
 - Go 1.12
@@ -14,6 +14,10 @@
 ### .protoファイルをコンパイルする
 
 ```
+bash
+
+or
+
 $ protoc -I=proto --go_out=plugins=grpc,paths=source_relative:./proto proto/activity/activity.proto
 $ protoc -I=proto --go_out=plugins=grpc,paths=source_relative:./proto proto/task/task.proto
 $ protoc -I=proto --go_out=plugins=grpc,paths=source_relative:./proto proto/user/user.proto
@@ -30,4 +34,9 @@ $ docker-compose build
 
 ```
 $ docker-compose up
+```
+
+### エンドポイント
+```
+
 ```
