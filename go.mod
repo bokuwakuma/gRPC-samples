@@ -1,4 +1,4 @@
-module github.com/bokuwakuma/gRPC-samples
+module github.com/bokuwakuma/grpc-samples
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
